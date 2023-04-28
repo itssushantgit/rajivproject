@@ -1,5 +1,7 @@
 .heading_txt{
-    margin-left: 30%;
+    position: absolute;
+    top: 0;
+ left: 30%;
     color:  #7e9a9a;
 }
 .card{
@@ -7,6 +9,12 @@
     border-radius: 15px;
     box-shadow: 500px;
 
+}
+#arrow_icons{
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    color: #7e9a9a;
 }
 .body_content{
     display: flex;

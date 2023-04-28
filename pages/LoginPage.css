@@ -1,4 +1,21 @@
-
+body{
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg);
+    height: fit-content;
+}
+.heading_left i{
+    color: #7e9a9a !important;
+    position: absolute;
+    top: 10px;
+    left: 46%;
+   }
+   .heading_left h1{
+       font-size: 20px;
+       font-weight: 500;
+       color: #7e9a9a;
+      margin-left: 48%;
+       cursor: pointer;
+       margin-top: 0;
+   }
 .signin_top{
     display: flex;
     justify-content: center;
@@ -31,17 +48,19 @@ margin-left: 33%;
    width: 100%;
 
 margin-bottom: 1rem;
-border-radius: 10px;
+border-radius: 15px;
+border: 1px solid grey;
 
 }
 .signin_content input::placeholder{
     font-size:0.7rem ;
    
+   
 }
 .signin_footer{
     display: flex;
     justify-content: center;
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 2%;
 
 }
@@ -67,6 +86,12 @@ border-radius: 10px;
     margin-top: 13px;
 }
 .signin_btn{
-    background-color: #fff;
+    background-color:  rgb(139, 193, 200, 0.75);
     border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.signin_btn:hover{
+    background-color: rgb(75, 74, 68,0.8);
+    color: #fbe8e8;
 }
