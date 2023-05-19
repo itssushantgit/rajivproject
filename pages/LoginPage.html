@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  
   <script
     src="https://kit.fontawesome.com/4203d2eff2.js"
     crossorigin="anonymous"
   ></script>
-  <link rel="stylesheet" href="LoginPage.css">
+  <script  src="Login.js">
+   </script>
+  <link rel="stylesheet" href="LoginPage.css" />
+
   <body>
     <div class="signinpage">
       <div class="heading_left">
@@ -22,18 +26,19 @@
         <div class="signin_header">Login Here</div>
         <div class="signin_body">
           <div class="signin_content">
-            <input type="text" placeholder="Enter your Email"></input>
+          
+            <input type="text" required id="text" placeholder="Enter your Email"></input>
           </div>
           <br />
           <div class="signin_content">
-            <input type="text" placeholder="Enter your Password"></input>
+            <input type="password" required placeholder="Enter your Password"></input>
           </div>
           <br></br>
           <div class="sininbox_footer">
             <h5>
               Remember me <input type="checkbox"></input>
             </h5>
-            <button class="signin_btn">Sign in</button>
+            <button class="signin_btn"  onclick="ValidateEmail()">Sign in</button>
   
         
           </div>
@@ -45,4 +50,5 @@
         </div>
       </div>
   </body>
+ 
 </html>
